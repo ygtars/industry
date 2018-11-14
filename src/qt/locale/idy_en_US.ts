@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>The idy address to sign the message with</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>The IDY address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Sign the message to prove you own this idy address</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Sign the message to prove you own this IDY address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>The idy address the message was signed with</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>The IDY address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Verify the message to ensure it was signed with the specified idy address</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Verify the message to ensure it was signed with the specified IDY address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Send coins to a idy address</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Send coins to a IDY address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Request payments (generates QR codes and idy: URIs)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Request payments (generates QR codes and IDY: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
-        <translation>&amp;About idy Core</translation>
+        <source>&amp;About IDY Core</source>
+        <translation>&amp;About IDY Core</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
-        <translation>Show information about idy Core</translation>
+        <source>Show information about IDY Core</source>
+        <translation>Show information about IDY Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Modify configuration options for idy</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Modify configuration options for IDY</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Sign messages with your idy addresses to prove you own them</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Sign messages with your IDY addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Verify messages to ensure they were signed with specified idy addresses</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Verify messages to ensure they were signed with specified IDY addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Open Masternode configuration file</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Open a idy: URI or payment request</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Open a IDY: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,16 +678,16 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the idy Core help message to get a list with possible idy command-line options</source>
-        <translation>Show the idy Core help message to get a list with possible idy command-line options</translation>
+        <source>Show the IDY Core help message to get a list with possible IDY command-line options</source>
+        <translation>Show the IDY Core help message to get a list with possible IDY command-line options</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>idy Core client</translation>
+        <source>IDY Core client</source>
+        <translation>IDY Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to idy network</source>
-        <translation><numerusform>%n active connection(s) to idy network</numerusform><numerusform>%n active connection(s) to idy network</numerusform></translation>
+        <source>%n active connection(s) to IDY network</source>
+        <translation><numerusform>%n active connection(s) to IDY network</numerusform><numerusform>%n active connection(s) to IDY network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -829,8 +829,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</translation>
     </message>
 </context>
 <context>
@@ -1003,8 +1003,8 @@ Address: %4
         <translation>medium-high</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uidy per input.</source>
-        <translation>Can vary +/- %1 uidy per input.</translation>
+        <source>Can vary +/- %1 uIDY per input.</source>
+        <translation>Can vary +/- %1 uIDY per input.</translation>
     </message>
     <message>
         <source>n/a</source>
@@ -1122,8 +1122,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid idy address.</source>
-        <translation>The entered address "%1" is not a valid idy address.</translation>
+        <source>The entered address "%1" is not a valid IDY address.</source>
+        <translation>The entered address "%1" is not a valid IDY address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1168,16 +1168,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About idy Core</source>
-        <translation>About idy Core</translation>
+        <source>About IDY Core</source>
+        <translation>About IDY Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1223,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to idy Core.</source>
-        <translation>Welcome to idy Core.</translation>
+        <source>Welcome to IDY Core.</source>
+        <translation>Welcome to IDY Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where idy Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where idy Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where IDY Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where IDY Core will store its data.</translation>
     </message>
     <message>
-        <source>idy Core will download and store a copy of the idy block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>idy Core will download and store a copy of the idy block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>IDY Core will download and store a copy of the IDY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>IDY Core will download and store a copy of the IDY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1243,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1385,12 +1385,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other idy addresses after it matures.
-To Add: enter percentage to give and idy address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other IDY addresses after it matures.
+To Add: enter percentage to give and IDY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other idy addresses after it matures.
-To Add: enter percentage to give and idy address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other IDY addresses after it matures.
+To Add: enter percentage to give and IDY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -1563,8 +1563,8 @@ Please check the address and try again.</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the idy client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the idy client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the IDY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the IDY client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1583,12 +1583,12 @@ Please check the address and try again.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start idy after logging in to the system.</source>
-        <translation>Automatically start idy after logging in to the system.</translation>
+        <source>Automatically start IDY after logging in to the system.</source>
+        <translation>Automatically start IDY after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start idy on system login</source>
-        <translation>&amp;Start idy on system login</translation>
+        <source>&amp;Start IDY on system login</source>
+        <translation>&amp;Start IDY on system login</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1615,16 +1615,16 @@ Please check the address and try again.</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting idy.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting idy.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting IDY.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting IDY.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the idy network through a SOCKS5 proxy.</source>
-        <translation>Connect to the idy network through a SOCKS5 proxy.</translation>
+        <source>Connect to the IDY network through a SOCKS5 proxy.</source>
+        <translation>Connect to the IDY network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1774,8 +1774,8 @@ Please check the address and try again.</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the idy network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the idy network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the IDY network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the IDY network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1853,12 +1853,12 @@ Please check the address and try again.</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start idy: click-to-pay handler</source>
-        <translation>Cannot start idy: click-to-pay handler</translation>
+        <source>Cannot start IDY: click-to-pay handler</source>
+        <translation>Cannot start IDY: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid idy address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid idy address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid IDY address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid IDY address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1943,8 +1943,8 @@ Please check the address and try again.</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a idy address (e.g. %1)</source>
-        <translation>Enter a idy address (e.g. %1)</translation>
+        <source>Enter a IDY address (e.g. %1)</source>
+        <translation>Enter a IDY address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2077,8 +2077,8 @@ Please check the address and try again.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the idy debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the idy debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the IDY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the IDY debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2245,8 +2245,8 @@ Please check the address and try again.</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the idy RPC console.</source>
-        <translation>Welcome to the idy RPC console.</translation>
+        <source>Welcome to the IDY RPC console.</source>
+        <translation>Welcome to the IDY RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2316,12 +2316,12 @@ Please check the address and try again.</translation>
         <translation>An optional label to associate with the new receiving address.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the idy network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the idy network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the IDY network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the IDY network.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the idy network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the idy network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the IDY network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the IDY network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2553,8 +2553,8 @@ Please check the address and try again.</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 idy</source>
-        <translation>0 idy</translation>
+        <source>0 IDY</source>
+        <translation>0 IDY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2597,16 +2597,16 @@ Please check the address and try again.</translation>
         <translation>Confirmation time:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uidys and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uidys in fee,&lt;br /&gt;while "at least" pays 1000 uidys. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uidys and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uidys in fee,&lt;br /&gt;while "at least" pays 1000 uidys. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIDYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIDYs in fee,&lt;br /&gt;while "at least" pays 1000 uIDYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uIDYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIDYs in fee,&lt;br /&gt;while "at least" pays 1000 uIDYs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uidys and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uidys in fee,&lt;br /&gt;while "total at least" pays 1000 uidys. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uidys and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uidys in fee,&lt;br /&gt;while "total at least" pays 1000 uidys. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIDYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIDYs in fee,&lt;br /&gt;while "total at least" pays 1000 uIDYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uIDYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIDYs in fee,&lt;br /&gt;while "total at least" pays 1000 uIDYs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for idy transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for idy transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for IDY transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for IDY transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2705,8 +2705,8 @@ Please check the address and try again.</translation>
         <translation>using</translation>
     </message>
     <message>
-        <source>Warning: Invalid idy address</source>
-        <translation>Warning: Invalid idy address</translation>
+        <source>Warning: Invalid IDY address</source>
+        <translation>Warning: Invalid IDY address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2804,8 +2804,8 @@ Please check the address and try again.</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The idy address to send the payment to</source>
-        <translation>The idy address to send the payment to</translation>
+        <source>The IDY address to send the payment to</source>
+        <translation>The IDY address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2844,8 +2844,8 @@ Please check the address and try again.</translation>
         <translation>Message:</translation>
     </message>
     <message>
-        <source>A message that was attached to the idy: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the idy network.</source>
-        <translation>A message that was attached to the idy: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the idy network.</translation>
+        <source>A message that was attached to the IDY: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the IDY network.</source>
+        <translation>A message that was attached to the IDY: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the IDY network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2871,8 +2871,8 @@ Please check the address and try again.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>idy Core is shutting down...</source>
-        <translation>idy Core is shutting down...</translation>
+        <source>IDY Core is shutting down...</source>
+        <translation>IDY Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2894,8 +2894,8 @@ Please check the address and try again.</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>The idy address to sign the message with</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>The IDY address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2926,16 +2926,16 @@ Please check the address and try again.</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Sign the message to prove you own this idy address</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Sign the message to prove you own this IDY address</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>The idy address the message was signed with</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>The IDY address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Verify the message to ensure it was signed with the specified idy address</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Verify the message to ensure it was signed with the specified IDY address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3021,8 +3021,8 @@ Please check the address and try again.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3041,8 +3041,8 @@ Please check the address and try again.</translation>
         <translation>The PIVX Core developers</translation>
     </message>
     <message>
-        <source>The idy Core developers</source>
-        <translation>The idy Core developers</translation>
+        <source>The IDY Core developers</source>
+        <translation>The IDY Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3545,8 +3545,8 @@ Please check the address and try again.</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 idy.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 idy.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 IDY.</source>
+        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 IDY.</translation>
     </message>
 </context>
 <context>
@@ -3589,7 +3589,7 @@ Please check the address and try again.</translation>
     </message>
 </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3615,8 +3615,8 @@ Please check the address and try again.</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. idy Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. idy Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. IDY Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. IDY Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3635,8 +3635,8 @@ Please check the address and try again.</translation>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all idy specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all idy specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all IDY specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all IDY specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3675,12 +3675,12 @@ Please check the address and try again.</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in idy/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in idy/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in IDY/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in IDY/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in idy/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in idy/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in IDY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in IDY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3771,36 +3771,36 @@ Please check the address and try again.</translation>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use idyd, or the -server option to idy-qt, you must set an rpcpassword in the configuration file:
+        <source>To use IDYd, or the -server option to IDY-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=idyrpc
+rpcuser=IDYrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "IDY Alert" admin@foo.com
 </source>
-        <translation>To use idyd, or the -server option to idy-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use IDYd, or the -server option to IDY-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=idyrpc
+rpcuser=IDYrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "IDY Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. idy Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. idy Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. IDY Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. IDY Core is probably already running.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 idy.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 idy.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 IDY.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 IDY.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3815,8 +3815,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong idy Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong idy Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong IDY Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong IDY Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3959,8 +3959,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The idy Core Developers</source>
-        <translation>Copyright (C) 2017-%i The idy Core Developers</translation>
+        <source>Copyright (C) 2017-%i The IDY Core Developers</source>
+        <translation>Copyright (C) 2017-%i The IDY Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4031,8 +4031,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of idy Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of idy Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of IDY Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of IDY Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4075,8 +4075,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in idy/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in idy/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in IDY/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in IDY/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4135,8 +4135,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. idy Core is shutting down.</source>
-        <translation>Initialization sanity check failed. idy Core is shutting down.</translation>
+        <source>Initialization sanity check failed. IDY Core is shutting down.</source>
+        <translation>Initialization sanity check failed. IDY Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4707,8 +4707,8 @@ for example: alertnotify=echo %%s | mail -s "idy Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart idy Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart idy Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart IDY Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart IDY Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>

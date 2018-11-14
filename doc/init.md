@@ -1,60 +1,60 @@
-Sample init scripts and service configuration for idyd
+Sample init scripts and service configuration for IDYd
 ==========================================================
 
 Sample scripts and configuration files for systemd, Upstart and OpenRC
 can be found in the contrib/init folder.
 
-    contrib/init/idyd.service:    systemd service unit configuration
-    contrib/init/idyd.openrc:     OpenRC compatible SysV style init script
-    contrib/init/idyd.openrcconf: OpenRC conf.d file
-    contrib/init/idyd.conf:       Upstart service configuration file
-    contrib/init/idyd.init:       CentOS compatible SysV style init script
+    contrib/init/IDYd.service:    systemd service unit configuration
+    contrib/init/IDYd.openrc:     OpenRC compatible SysV style init script
+    contrib/init/IDYd.openrcconf: OpenRC conf.d file
+    contrib/init/IDYd.conf:       Upstart service configuration file
+    contrib/init/IDYd.init:       CentOS compatible SysV style init script
 
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "idy" user
+All three startup configurations assume the existence of a "IDY" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
 ---------------------------------
 
-At a bare minimum, idyd requires that the rpcpassword setting be set
+At a bare minimum, IDYd requires that the rpcpassword setting be set
 when running as a daemon.  If the configuration file does not exist or this
-setting is not set, idyd will shutdown promptly after startup.
+setting is not set, IDYd will shutdown promptly after startup.
 
 This password does not have to be remembered or typed as it is mostly used
-as a fixed token that idyd and client programs read from the configuration
+as a fixed token that IDYd and client programs read from the configuration
 file, however it is recommended that a strong and secure password be used
 as this password is security critical to securing the wallet should the
 wallet be enabled.
 
-If idyd is run with "-daemon" flag, and no rpcpassword is set, it will
+If IDYd is run with "-daemon" flag, and no rpcpassword is set, it will
 print a randomly generated suitable password to stderr.  You can also
 generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/idy/idy.conf
+Once you have a password in hand, set rpcpassword= in /etc/IDY/IDY.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/idy.conf.
+see contrib/debian/examples/IDY.conf.
 
 3. Paths
 ---------------------------------
 
 All three configurations assume several paths that might need to be adjusted.
 
-Binary:              /usr/bin/idyd
-Configuration file:  /etc/idy/idy.conf
-Data directory:      /var/lib/idyd
-PID file:            /var/run/idyd/idyd.pid (OpenRC and Upstart)
-                     /var/lib/idyd/idyd.pid (systemd)
+Binary:              /usr/bin/IDYd
+Configuration file:  /etc/IDY/IDY.conf
+Data directory:      /var/lib/IDYd
+PID file:            /var/run/IDYd/IDYd.pid (OpenRC and Upstart)
+                     /var/lib/IDYd/IDYd.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the idy user and group.  It is advised for security
+should all be owned by the IDY user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-idy user and group.  Access to idy-cli and other idyd rpc clients
+IDY user and group.  Access to IDY-cli and other IDYd rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration
@@ -66,19 +66,19 @@ Installing this .service file consists on just copying it to
 /usr/lib/systemd/system directory, followed by the command
 "systemctl daemon-reload" in order to update running systemd configuration.
 
-To test, run "systemctl start idyd" and to enable for system startup run
-"systemctl enable idyd"
+To test, run "systemctl start IDYd" and to enable for system startup run
+"systemctl enable IDYd"
 
 4b) OpenRC
 
-Rename idyd.openrc to idyd and drop it in /etc/init.d.  Double
+Rename IDYd.openrc to IDYd and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-"/etc/init.d/idyd start" and configure it to run on startup with
-"rc-update add idyd"
+"/etc/init.d/IDYd start" and configure it to run on startup with
+"rc-update add IDYd"
 
 4c) Upstart (for Debian/Ubuntu based distributions)
 
-Drop idyd.conf in /etc/init.  Test by running "service idyd start"
+Drop IDYd.conf in /etc/init.  Test by running "service IDYd start"
 it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
@@ -86,11 +86,11 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 
 4d) CentOS
 
-Copy idyd.init to /etc/init.d/idyd. Test by running "service idyd start".
+Copy IDYd.init to /etc/init.d/IDYd. Test by running "service IDYd start".
 
-Using this script, you can adjust the path and flags to the idyd program by
+Using this script, you can adjust the path and flags to the IDYd program by
 setting the BITCOINGREEND and FLAGS environment variables in the file
-/etc/sysconfig/idyd. You can also use the DAEMONOPTS environment variable here.
+/etc/sysconfig/IDYd. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn
 -----------------------------------

@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE idy!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE IDY!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres idy jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres IDY jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>&amp;Rdzeń idy</translation>
+        <source>IDY Core</source>
+        <translation>&amp;Rdzeń IDY</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Wyślij monety do adresu idy</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Wyślij monety do adresu IDY</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i idy:URI)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i IDY:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,24 +534,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
+        <source>&amp;About IDY Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
+        <source>Show information about IDY Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Modyfikuj opcje konfiguracji idy</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Modyfikuj opcje konfiguracji IDY</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami idy, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami IDY, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu idy</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu IDY</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Otwórz idy: URI i żądanie zapłaty</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Otwórz IDY: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the idy Core help message to get a list with possible idy command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia idy, aby dostać listę możliwych opcji idy command-line</translation>
+        <source>Show the IDY Core help message to get a list with possible IDY command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia IDY, aby dostać listę możliwych opcji IDY command-line</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>Rdzeń idy klient</translation>
+        <source>IDY Core client</source>
+        <translation>Rdzeń IDY klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>idy Core</source>
-        <translation>&amp;Rdzeń idy</translation>
+        <source>IDY Core</source>
+        <translation>&amp;Rdzeń IDY</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>&amp;Rdzeń idy</translation>
+        <source>IDY Core</source>
+        <translation>&amp;Rdzeń IDY</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start idy after logging in to the system.</source>
-        <translation>Automatycznie uruchom idy po zalogowaniu do systemu</translation>
+        <source>Automatically start IDY after logging in to the system.</source>
+        <translation>Automatycznie uruchom IDY po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start idy on system login</source>
-        <translation>&amp;Uruchom idy podczas logowania do systemu</translation>
+        <source>&amp;Start IDY on system login</source>
+        <translation>&amp;Uruchom IDY podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting idy.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie idy</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting IDY.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie IDY</translation>
     </message>
     <message>
-        <source>Connect to the idy network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią idy poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the IDY network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią IDY poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1361,8 +1361,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a idy address (e.g. %1)</source>
-        <translation>Wprowadź adres idy (np. %1)</translation>
+        <source>Enter a IDY address (e.g. %1)</source>
+        <translation>Wprowadź adres IDY (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres idy jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres IDY jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>&amp;Rdzeń idy</translation>
+        <source>IDY Core</source>
+        <translation>&amp;Rdzeń IDY</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

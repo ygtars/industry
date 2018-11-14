@@ -1,0 +1,26 @@
+[Unit]
+Description=IDY's distributed currency daemon
+After=network.target
+
+[Service]
+User=IDY
+Group=IDY
+
+Type=forking
+PIDFile=/var/lib/IDYd/IDYd.pid
+
+ExecStart=/usr/bin/IDYd -daemon -pid=/var/lib/IDYd/IDYd.pid \
+          -conf=/etc/IDY/IDY.conf -datadir=/var/lib/IDYd
+
+ExecStop=-/usr/bin/IDY-cli -conf=/etc/IDY/IDY.conf \
+         -datadir=/var/lib/IDYd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

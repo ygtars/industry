@@ -5,7 +5,7 @@
 #include "random.h"
 #include "scheduler.h"
 #if defined(HAVE_CONFIG_H)
-#include "config/idy-config.h"
+#include "config/IDY-config.h"
 #else
 #define HAVE_WORKING_BOOST_SLEEP_FOR
 #endif

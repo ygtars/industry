@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše idy adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše IDY adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše idy adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše IDY adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše idy pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše IDY pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY idy &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY IDY &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu idy, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu IDY, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Adresa idy, ktorou chcete správu podpísať</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Adresa IDY, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto idy adresy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto IDY adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>idy adresa, ktorou bola správa podpísaná</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>IDY adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou idy adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou IDY adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Odoslať mince na adresu idy</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Odoslať mince na adresu IDY</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a idy: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a IDY: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
-        <translation>O idy Core</translation>
+        <source>&amp;About IDY Core</source>
+        <translation>O IDY Core</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
-        <translation>Zobraziť informácie o idy Core</translation>
+        <source>Show information about IDY Core</source>
+        <translation>Zobraziť informácie o IDY Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Zmeňte možnosti konfigurácie pre idy</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Zmeňte možnosti konfigurácie pre IDY</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy idy, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy IDY, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými idy adresami</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými IDY adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Otvorte idy: URI alebo žiadosť o platbu</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Otvorte IDY: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the idy Core help message to get a list with possible idy command-line options</source>
-        <translation>Zobraziť pomocnú správu programu idy Core a získajte zoznam možností príkazového riadka idy</translation>
+        <source>Show the IDY Core help message to get a list with possible IDY command-line options</source>
+        <translation>Zobraziť pomocnú správu programu IDY Core a získajte zoznam možností príkazového riadka IDY</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>idy Core klient</translation>
+        <source>IDY Core client</source>
+        <translation>IDY Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (idy.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (IDY.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1082,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Adresa idy, ktorou chcete správu podpísať</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Adresa IDY, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1106,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto idy adresy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto IDY adresy</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>idy adresa, ktorou bola správa podpísaná</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>IDY adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou idy adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou IDY adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

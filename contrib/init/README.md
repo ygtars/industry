@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: idyd.service
-Upstart: idyd.conf
-OpenRC:  idyd.openrc
-         idyd.openrcconf
-CentOS:  idyd.init
+SystemD: IDYd.service
+Upstart: IDYd.conf
+OpenRC:  IDYd.openrc
+         IDYd.openrcconf
+CentOS:  IDYd.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/idy-config.h"
+#include "config/IDY-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// idy only features
+// IDY only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,8 +227,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "idy" is a composite category enabling all idy-related debug output
-            if (ptrCategory->count(string("idy"))) {
+            // "IDY" is a composite category enabling all IDY-related debug output
+            if (ptrCategory->count(string("IDY"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
@@ -391,7 +391,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "idy";
+    const char* pszModule = "IDY";
 #endif
     if (pex)
         return strprintf(
@@ -412,13 +412,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\idy
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\idy
-// Mac: ~/Library/Application Support/idy
-// Unix: ~/.idy
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\IDY
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\IDY
+// Mac: ~/Library/Application Support/IDY
+// Unix: ~/.IDY
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "idy";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "IDY";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -430,10 +430,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "idy";
+    return pathRet / "IDY";
 #else
     // Unix
-    return pathRet / ".idy";
+    return pathRet / ".IDY";
 #endif
 #endif
 }
@@ -480,7 +480,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "idy.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "IDY.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -499,7 +499,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty idy.conf if it does not exist
+        // Create empty IDY.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -510,7 +510,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override idy.conf
+        // Don't overwrite existing settings so command line settings override IDY.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -525,7 +525,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "idyd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "IDYd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

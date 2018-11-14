@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between idy-cli and idyd)
- * of a given instance of the idy system.
+ * CBaseChainParams defines the base parameters (shared between IDY-cli and IDYd)
+ * of a given instance of the IDY system.
  */
 class CBaseChainParams
 {

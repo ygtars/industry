@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../idy.qrc"/>
+  <include location="../IDY.qrc"/>
  </resources>
  <connections/>
 </ui>

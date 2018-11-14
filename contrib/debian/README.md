@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package idyd/idy-qt
-for Debian-based Linux systems. If you compile idyd/idy-qt yourself, there are some useful files here.
+This directory contains files used to package IDYd/IDY-qt
+for Debian-based Linux systems. If you compile IDYd/IDY-qt yourself, there are some useful files here.
 
-## idy: URI support ##
+## IDY: URI support ##
 
 
-idy-qt.desktop  (Gnome / Open Desktop)
+IDY-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install idy-qt.desktop
+	sudo desktop-file-install IDY-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your idyqt binary to `/usr/bin`
-and the `../../share/pixmaps/idy128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your IDYqt binary to `/usr/bin`
+and the `../../share/pixmaps/IDY128.png` to `/usr/share/pixmaps`
 
-idy-qt.protocol (KDE)
+IDY-qt.protocol (KDE)
 

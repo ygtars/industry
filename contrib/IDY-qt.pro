@@ -77,7 +77,7 @@ HEADERS += src/bignum.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
-           src/idy-config.h \
+           src/IDY-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/bignum.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/idy-config.h \
+           src/config/IDY-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -331,7 +331,7 @@ HEADERS += src/bignum.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/idy.moc \
+           src/qt/IDY.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -369,9 +369,9 @@ SOURCES += src/activemasternode.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
-           src/idy-cli.cpp \
-           src/idy-tx.cpp \
-           src/idy.cpp \
+           src/IDY-cli.cpp \
+           src/IDY-tx.cpp \
+           src/IDY.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -466,8 +466,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
-           src/qt/idy.cpp \
-           src/qt/idystrings.cpp \
+           src/qt/IDY.cpp \
+           src/qt/IDYstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -545,7 +545,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_idy.cpp \
+           src/test/test_IDY.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -636,21 +636,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/idy.qrc src/qt/idy_locale.qrc
+RESOURCES += src/qt/IDY.qrc src/qt/IDY_locale.qrc
 
-TRANSLATIONS += src/qt/locale/idy_bg.ts \
-                src/qt/locale/idy_de.ts \
-                src/qt/locale/idy_en.ts \
-                src/qt/locale/idy_es.ts \
-                src/qt/locale/idy_fi.ts \
-                src/qt/locale/idy_fr.ts \
-                src/qt/locale/idy_it.ts \
-                src/qt/locale/idy_ja.ts \
-                src/qt/locale/idy_pl.ts \
-                src/qt/locale/idy_pt.ts \
-                src/qt/locale/idy_ru.ts \
-                src/qt/locale/idy_sk.ts \
-                src/qt/locale/idy_sv.ts \
-                src/qt/locale/idy_vi.ts \
-                src/qt/locale/idy_zh_CN.ts \
-                src/qt/locale/idy_zh_TW.ts
+TRANSLATIONS += src/qt/locale/IDY_bg.ts \
+                src/qt/locale/IDY_de.ts \
+                src/qt/locale/IDY_en.ts \
+                src/qt/locale/IDY_es.ts \
+                src/qt/locale/IDY_fi.ts \
+                src/qt/locale/IDY_fr.ts \
+                src/qt/locale/IDY_it.ts \
+                src/qt/locale/IDY_ja.ts \
+                src/qt/locale/IDY_pl.ts \
+                src/qt/locale/IDY_pt.ts \
+                src/qt/locale/IDY_ru.ts \
+                src/qt/locale/IDY_sk.ts \
+                src/qt/locale/IDY_sv.ts \
+                src/qt/locale/IDY_vi.ts \
+                src/qt/locale/IDY_zh_CN.ts \
+                src/qt/locale/IDY_zh_TW.ts

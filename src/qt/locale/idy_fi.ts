@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun idy osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun IDY osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun idy osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun IDY osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella idyien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella IDYien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki idyisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki IDYisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,8 +231,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä idy osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä IDY osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -240,8 +240,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>idy osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>IDY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -272,8 +272,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän idy osoitteen</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän IDY osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -296,12 +296,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>idy osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>IDY osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla idy osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla IDY osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -587,16 +587,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Ydin</translation>
+        <source>IDY Core</source>
+        <translation>IDY Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Lähetä kolikkoja idy osoitteeseen</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Lähetä kolikkoja IDY osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja idy: URIja)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja IDY: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -607,24 +607,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
-        <translation>idy Core &amp;ytimestä</translation>
+        <source>&amp;About IDY Core</source>
+        <translation>IDY Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
-        <translation>Näytä tietoja idy Ytimestä</translation>
+        <source>Show information about IDY Core</source>
+        <translation>Näytä tietoja IDY Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja idy:lle</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja IDY:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä idy osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä IDY osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -655,8 +655,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Avaa idy: URI tai pyydä maksua</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Avaa IDY: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -667,12 +667,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the idy Core help message to get a list with possible idy command-line options</source>
-        <translation>Näytä idy Ydin apuviesti saadaksesi lista mahdollisista idy komentolinja komennoista.</translation>
+        <source>Show the IDY Core help message to get a list with possible IDY command-line options</source>
+        <translation>Näytä IDY Ydin apuviesti saadaksesi lista mahdollisista IDY komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>idy Ydin asiakasohjelma</translation>
+        <source>IDY Core client</source>
+        <translation>IDY Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -930,8 +930,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Ydin</translation>
+        <source>IDY Core</source>
+        <translation>IDY Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -949,12 +949,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to idy Core.</source>
-        <translation>Tervetuloa idy Ytimeen.</translation>
+        <source>Welcome to IDY Core.</source>
+        <translation>Tervetuloa IDY Ytimeen.</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Ydin</translation>
+        <source>IDY Core</source>
+        <translation>IDY Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,12 +1150,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start idy after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä idy kun kirjaudut sisään.</translation>
+        <source>Automatically start IDY after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä IDY kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start idy on system login</source>
-        <translation>&amp;Aloita idy järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start IDY on system login</source>
+        <translation>&amp;Aloita IDY järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1174,12 +1174,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting idy.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting IDY.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the idy network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä idy verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the IDY network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä IDY verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1396,8 +1396,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the idy debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa idy debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the IDY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa IDY debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1508,8 +1508,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the idy RPC console.</source>
-        <translation>Tervetuloa idy RPC konsoliin.</translation>
+        <source>Welcome to the IDY RPC console.</source>
+        <translation>Tervetuloa IDY RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the idy network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana idy verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the IDY network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana IDY verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the idy network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana idy verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the IDY network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana IDY verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1752,8 +1752,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 idy</source>
-        <translation>0 idy</translation>
+        <source>0 IDY</source>
+        <translation>0 IDY</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1836,8 +1836,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid idy address</source>
-        <translation>Varoitus: Virheellinen idy osoite</translation>
+        <source>Warning: Invalid IDY address</source>
+        <translation>Varoitus: Virheellinen IDY osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1875,8 +1875,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The idy address to send the payment to</source>
-        <translation>idy osoite johon maksu lähetetään</translation>
+        <source>The IDY address to send the payment to</source>
+        <translation>IDY osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1918,8 +1918,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>idy Core is shutting down...</source>
-        <translation>idy core sammuu...</translation>
+        <source>IDY Core is shutting down...</source>
+        <translation>IDY core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1937,8 +1937,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>idy osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>IDY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1969,16 +1969,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän idy osoitteen</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän IDY osoitteen</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>idy osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>IDY osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla idy osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla IDY osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Ydin</translation>
+        <source>IDY Core</source>
+        <translation>IDY Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2080,8 +2080,8 @@ Please check the address and try again.</source>
         <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
-        <source>The idy Core developers</source>
-        <translation>idy core kehittäjät</translation>
+        <source>The IDY Core developers</source>
+        <translation>IDY core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2384,7 +2384,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2434,8 +2434,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of idy Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version idy Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of IDY Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version IDY Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=idy
-Comment=idy P2P Cryptocurrency
-Exec=idy-qt %u
+Name=IDY
+Comment=IDY P2P Cryptocurrency
+Exec=IDY-qt %u
 Terminal=false
 Type=Application
-Icon=idy128
-MimeType=x-scheme-handler/idy;
+Icon=IDY128
+MimeType=x-scheme-handler/IDY;
 Categories=Office;Finance;
-Name[en_US]=idy-qt.desktop
+Name[en_US]=IDY-qt.desktop

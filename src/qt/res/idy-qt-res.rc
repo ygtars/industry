@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "idy"
-            VALUE "FileDescription",    "idy Core (OSS GUI client for idy)"
+            VALUE "CompanyName",        "IDY"
+            VALUE "FileDescription",    "IDY Core (OSS GUI client for IDY)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "idy-qt"
+            VALUE "InternalName",       "IDY-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "idy-qt.exe"
-            VALUE "ProductName",        "idy Core"
+            VALUE "OriginalFilename",   "IDY-qt.exe"
+            VALUE "ProductName",        "IDY Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

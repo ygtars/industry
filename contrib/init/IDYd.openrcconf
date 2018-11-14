@@ -1,0 +1,26 @@
+# /etc/conf.d/IDYd: config file for /etc/init.d/IDYd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/IDY/IDY.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/IDYd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/IDYd.pid"
+
+# Where to write IDYd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/IDYd"
+
+# User and group to own IDYd process
+#BITCOIND_USER="IDY"
+#BITCOIND_GROUP="IDY"
+
+# Path to IDYd executable
+#BITCOIND_BIN="/usr/bin/IDYd"
+
+# Nice value to run IDYd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

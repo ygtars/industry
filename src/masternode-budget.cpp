@@ -838,33 +838,33 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
     if (chainActive.Tip() == NULL) return 0;
 
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        CAmount nSubsidy = 500 * COIN;
-        return ((nSubsidy / 100) * 10) * 146;
+        CAmount nSubsIDY = 500 * COIN;
+        return ((nSubsIDY / 100) * 10) * 146;
     }
 
     if (nHeight <= Params().LAST_POW_BLOCK())
         return 0;
 
     //get block value and calculate from that
-    CAmount nSubsidy = 0;
+    CAmount nSubsIDY = 0;
 
     if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 5000)
-        nSubsidy = 1.05 * COIN;
+        nSubsIDY = 1.05 * COIN;
     else if (nHeight > 5000 && nHeight <= 25000)
-        nSubsidy = 31.5 * COIN;
+        nSubsIDY = 31.5 * COIN;
     else if (nHeight > 25000 && nHeight <= 100000)
-        nSubsidy = 22.05 * COIN;
+        nSubsIDY = 22.05 * COIN;
     else if (nHeight > 100000 && nHeight <= 1050000)
-        nSubsidy = 10.5 * COIN;
+        nSubsIDY = 10.5 * COIN;
     else if (nHeight > 1050000 && nHeight <= 2100000)
-        nSubsidy = 5.25 * COIN;
+        nSubsIDY = 5.25 * COIN;
     else if (nHeight > 2100000 && nHeight <= 3150000)
-        nSubsidy = 2.63 * COIN;
+        nSubsIDY = 2.63 * COIN;
     else
-        nSubsidy = 1.31 * COIN;
+        nSubsIDY = 1.31 * COIN;
 
     // Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
-    return ((nSubsidy / 100) * 10) * 1440 * 30;
+    return ((nSubsIDY / 100) * 10) * 1440 * 30;
 }
 
 void CBudgetManager::NewBlock()

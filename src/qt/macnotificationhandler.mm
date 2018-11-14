@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.savebitcoin.idy-Qt";
+        return @"io.savebitcoin.IDY-Qt";
     } else {
         return [self __bundleIdentifier];
     }

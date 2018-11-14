@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/idy/.idy" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/idy/.idy"
+if [ -d "/var/lib/IDY/.IDY" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/IDY/.IDY"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/idyd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/IDYd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/idy/idy.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/idyd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/idyd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/IDY/IDY.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/IDYd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/IDYd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-idy}
-BITCOIND_GROUP=${BITCOIND_GROUP:-idy}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/idyd}
+BITCOIND_USER=${BITCOIND_USER:-IDY}
+BITCOIND_GROUP=${BITCOIND_GROUP:-IDY}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/IDYd}
 
-name="idy Core Daemon"
-description="idy crypto-currency p2p network daemon"
+name="IDY Core Daemon"
+description="IDY crypto-currency p2p network daemon"
 
-command="/usr/bin/idyd"
+command="/usr/bin/IDYd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run idyd."
+		eerror "ERROR: You must set a secure rpcpassword to run IDYd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"idy Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"IDY Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

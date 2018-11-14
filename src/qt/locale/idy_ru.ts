@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши idy-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши IDY-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши idy-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши IDY-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши idy от кражи с использованием вредоносного ПО.</translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши IDY от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ idy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ IDY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите idy адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите IDY адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Адрес idy для подписи сообщения с помощью</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Адрес IDY для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес idy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес IDY</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>Адрес idy, которым подписано сообщение</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>Адрес IDY, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным idy адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным IDY адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Отправить монеты на idy адрес</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Отправить монеты на IDY адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и idy: URI)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и IDY: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
-        <translation>&amp;О idy Core</translation>
+        <source>&amp;About IDY Core</source>
+        <translation>&amp;О IDY Core</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
-        <translation>Показать информацию о idy Core</translation>
+        <source>Show information about IDY Core</source>
+        <translation>Показать информацию о IDY Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Изменение параметров конфигурации idy</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Изменение параметров конфигурации IDY</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими idy адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими IDY адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным idy адресом </translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным IDY адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Открыть idy: URI или запрос платежа</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Открыть IDY: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the idy Core help message to get a list with possible idy command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды idy</translation>
+        <source>Show the IDY Core help message to get a list with possible IDY command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды IDY</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>Клиент idy Core</translation>
+        <source>IDY Core client</source>
+        <translation>Клиент IDY Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (idy.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (IDY.conf).</translation>
     </message>
 </context>
 <context>
@@ -975,8 +975,8 @@ MultiSend: %1</translation>
         <translation>средне-высокий</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uidy per input.</source>
-        <translation>Может вариировать +/- %1 uidy к вводу</translation>
+        <source>Can vary +/- %1 uIDY per input.</source>
+        <translation>Может вариировать +/- %1 uIDY к вводу</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1090,8 +1090,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid idy address.</source>
-        <translation>Введенный адрес "%1" не является idy адресом.</translation>
+        <source>The entered address "%1" is not a valid IDY address.</source>
+        <translation>Введенный адрес "%1" не является IDY адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About idy Core</source>
-        <translation>О idy Core</translation>
+        <source>About IDY Core</source>
+        <translation>О IDY Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to idy Core.</source>
-        <translation>Добро пожаловать в idy Core.</translation>
+        <source>Welcome to IDY Core.</source>
+        <translation>Добро пожаловать в IDY Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where idy Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные idy Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where IDY Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные IDY Core.</translation>
     </message>
     <message>
-        <source>idy Core will download and store a copy of the idy block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>idy Core загрузит и сохранит копию цепочки блоков idy. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>IDY Core will download and store a copy of the IDY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>IDY Core загрузит и сохранит копию цепочки блоков IDY. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1353,12 +1353,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other idy addresses after it matures.
-To Add: enter percentage to give and idy address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other IDY addresses after it matures.
+To Add: enter percentage to give and IDY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие idy адреса.
-Для добавления: введите передаваемый процент и idy адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие IDY адреса.
+Для добавления: введите передаваемый процент и IDY адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the idy client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт idy через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the IDY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт IDY через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start idy after logging in to the system.</source>
-        <translation>Автоматически запускать idy после входа в систему.</translation>
+        <source>Automatically start IDY after logging in to the system.</source>
+        <translation>Автоматически запускать IDY после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start idy on system login</source>
-        <translation>&amp;Запускать idy при входе в систему</translation>
+        <source>&amp;Start IDY on system login</source>
+        <translation>&amp;Запускать IDY при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting idy.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска idy.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting IDY.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска IDY.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the idy network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети idy через SOCKS5 прокси.</translation>
+        <source>Connect to the IDY network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети IDY через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the idy network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью idy после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the IDY network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью IDY после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1801,12 +1801,12 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start idy: click-to-pay handler</source>
-        <translation>Не удалось запустить idy: обработчик click-to-pay </translation>
+        <source>Cannot start IDY: click-to-pay handler</source>
+        <translation>Не удалось запустить IDY: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid idy address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный idy адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid IDY address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный IDY адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1891,8 +1891,8 @@ Please check the address and try again.</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a idy address (e.g. %1)</source>
-        <translation>Введите адрес idy (например %1)</translation>
+        <source>Enter a IDY address (e.g. %1)</source>
+        <translation>Введите адрес IDY (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the idy debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки idy. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the IDY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки IDY. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the idy RPC console.</source>
-        <translation>Добро пожаловать в окружение idy RPC.</translation>
+        <source>Welcome to the IDY RPC console.</source>
+        <translation>Добро пожаловать в окружение IDY RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2406,8 +2406,8 @@ Please check the address and try again.</source>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 idy</source>
-        <translation>0 idy</translation>
+        <source>0 IDY</source>
+        <translation>0 IDY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2486,8 +2486,8 @@ Please check the address and try again.</source>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid idy address</source>
-        <translation>Предупреждение: неправильный idy адрес</translation>
+        <source>Warning: Invalid IDY address</source>
+        <translation>Предупреждение: неправильный IDY адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>idy Core is shutting down...</source>
-        <translation>idy Core выключается...</translation>
+        <source>IDY Core is shutting down...</source>
+        <translation>IDY Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2551,8 +2551,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Адрес idy для подписи сообщения с помощью</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Адрес IDY для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2575,16 +2575,16 @@ Please check the address and try again.</source>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес idy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес IDY</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>Адрес idy, которым подписано сообщение</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>Адрес IDY, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным idy адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным IDY адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The idy Core developers</source>
-        <translation>Разработчики idy Core</translation>
+        <source>The IDY Core developers</source>
+        <translation>Разработчики IDY Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The idy Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики idy Core</translation>
+        <source>Copyright (C) 2017-%i The IDY Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики IDY Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

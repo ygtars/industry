@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The idy developers
+// Copyright (c) 2017-2017 The IDY developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(idy);
-    unitlist.append(midy);
-    unitlist.append(uidy);
+    unitlist.append(IDY);
+    unitlist.append(mIDY);
+    unitlist.append(uIDY);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case idy:
-    case midy:
-    case uidy:
+    case IDY:
+    case mIDY:
+    case uIDY:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case idy:
-        return QString("idy");
-    case midy:
-        return QString("midy");
-    case uidy:
-        return QString::fromUtf8("uidy");
+    case IDY:
+        return QString("IDY");
+    case mIDY:
+        return QString("mIDY");
+    case uIDY:
+        return QString::fromUtf8("uIDY");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case idy:
-            return QString("idy");
-        case midy:
-            return QString("midy");
-        case uidy:
-            return QString::fromUtf8("μidy");
+        case IDY:
+            return QString("IDY");
+        case mIDY:
+            return QString("mIDY");
+        case uIDY:
+            return QString::fromUtf8("μIDY");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case idy:
-            return QString("tidy");
-        case midy:
-            return QString("mtidy");
-        case uidy:
-            return QString::fromUtf8("μtidy");
+        case IDY:
+            return QString("tIDY");
+        case mIDY:
+            return QString("mtIDY");
+        case uIDY:
+            return QString::fromUtf8("μtIDY");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case idy:
-            return QString("idy");
-        case midy:
-            return QString("Milli-idy (1 / 1" THIN_SP_UTF8 "000)");
-        case uidy:
-            return QString("Micro-idy (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case IDY:
+            return QString("IDY");
+        case mIDY:
+            return QString("Milli-IDY (1 / 1" THIN_SP_UTF8 "000)");
+        case uIDY:
+            return QString("Micro-IDY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case idy:
-            return QString("Testidys");
-        case midy:
-            return QString("Milli-Testidy (1 / 1" THIN_SP_UTF8 "000)");
-        case uidy:
-            return QString("Micro-Testidy (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case IDY:
+            return QString("TestIDYs");
+        case mIDY:
+            return QString("Milli-TestIDY (1 / 1" THIN_SP_UTF8 "000)");
+        case uIDY:
+            return QString("Micro-TestIDY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case idy:
+    case IDY:
         return 100000000;
-    case midy:
+    case mIDY:
         return 100000;
-    case uidy:
+    case uIDY:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case idy:
+    case IDY:
         return 8;
-    case midy:
+    case mIDY:
         return 5;
-    case uidy:
+    case uIDY:
         return 2;
     default:
         return 0;

@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal idy address field
+    // normal IDY address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying idy address(es)
+    // just a label for displaying IDY address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals
@@ -99,7 +99,7 @@ void SendCoinsEntry::clear()
     ui->memoTextLabel_s->clear();
     ui->payAmount_s->clear();
 
-    // update the display unit, to not use the default ("idy")
+    // update the display unit, to not use the default ("IDY")
     updateDisplayUnit();
 }
 

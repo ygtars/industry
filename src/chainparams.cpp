@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The idy developers
+// Copyright (c) 2017 The IDY developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -100,28 +100,28 @@ public:
         vAlertPubKey = ParseHex("045ad6f1551c2367f81c0ecb4d45d088298442887645a314dfcba3039401872473b0200e69d9679a0d7cc307fb9aaaacafb0cebc18050ce7c995fa19c6accc8415");
         nDefaultPort = 3434;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        nSubsidyHalvingInterval = 1050000;
+        nSubsIDYHalvingInterval = 1050000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 2 * 60;
-        nTargetSpacing = 2 * 60;  // idy: 1 minute blocks
+        nTargetSpacing = 2 * 60;  // IDY: 1 minute blocks
         nMaturity = 5; // 6 block maturity (+1 elsewhere)
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN; // 21 mil max supply
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 210;
-        nModifierUpdateBlock = 1; // we use the version 2 for idy
+        nModifierUpdateBlock = 1; // we use the version 2 for IDY
 
         /*
-         * python ~/genesis.py -a quark-hash -z "idy chain is alive" -t 1530718541 -v 0 -p 04f5a8143f86ad8ac63791fbbdb8e0b91a8da88c8c693a95f6c2c13c063ea790f7960b8025a9047a7bc671d5cfe707a2dd2e13b86182e1064a0eea7bf863636363 -n 21561600 -b 0x1e0ffff0
+         * python ~/genesis.py -a quark-hash -z "IDY chain is alive" -t 1530718541 -v 0 -p 04f5a8143f86ad8ac63791fbbdb8e0b91a8da88c8c693a95f6c2c13c063ea790f7960b8025a9047a7bc671d5cfe707a2dd2e13b86182e1064a0eea7bf863636363 -n 21561600 -b 0x1e0ffff0
 
          */
 
-        const char* pszTimestamp = "idy chain is alive";
+        const char* pszTimestamp = "IDY chain is alive";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -144,17 +144,17 @@ public:
         //vSeeds.push_back(CDNSSeedData("", ""));
 
 
-        // idy addresses start with 'K'
+        // IDY addresses start with 'K'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 45);
-        // idy script addresses start with '3'
+        // IDY script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 6);
-        // idy private keys start with 'K'
+        // IDY private keys start with 'K'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
-        // idy BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // IDY BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // idy BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // IDY BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        // idy BIP44 coin type is '222' (0x800000de)
+        // IDY BIP44 coin type is '222' (0x800000de)
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0xde).convert_to_container<std::vector<unsigned char> >();
 
@@ -208,8 +208,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // idy: 1 day
-        nTargetSpacing = 2 * 60;  // idy: 1 minute
+        nTargetTimespan = 1 * 60; // IDY: 1 day
+        nTargetSpacing = 2 * 60;  // IDY: 1 minute
         nLastPOWBlock = 1500;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -226,17 +226,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet idy addresses start with 'g'
+        // Testnet IDY addresses start with 'g'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 98);
-        // Testnet idy script addresses start with '5' or '6'
+        // Testnet IDY script addresses start with '5' or '6'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
         // Testnet private keys start with 'k'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 108);
-        // Testnet idy BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet IDY BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet idy BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet IDY BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet idy BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet IDY BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -277,13 +277,13 @@ public:
         pchMessageStart[1] = 0xee;
         pchMessageStart[2] = 0x32;
         pchMessageStart[3] = 0xbc;
-        nSubsidyHalvingInterval = 150;
+        nSubsIDYHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // idy: 1 day
-        nTargetSpacing = 2 * 60;        // idy: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // IDY: 1 day
+        nTargetSpacing = 2 * 60;        // IDY: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1516926684;
         genesis.nBits = 0x207fffff;
@@ -337,7 +337,7 @@ public:
     }
 
     //! Published setters to allow changing values in unit test cases
-    virtual void setSubsidyHalvingInterval(int anSubsidyHalvingInterval) { nSubsidyHalvingInterval = anSubsidyHalvingInterval; }
+    virtual void setSubsIDYHalvingInterval(int anSubsIDYHalvingInterval) { nSubsIDYHalvingInterval = anSubsIDYHalvingInterval; }
     virtual void setEnforceBlockUpgradeMajority(int anEnforceBlockUpgradeMajority) { nEnforceBlockUpgradeMajority = anEnforceBlockUpgradeMajority; }
     virtual void setRejectBlockOutdatedMajority(int anRejectBlockOutdatedMajority) { nRejectBlockOutdatedMajority = anRejectBlockOutdatedMajority; }
     virtual void setToCheckBlockUpgradeMajority(int anToCheckBlockUpgradeMajority) { nToCheckBlockUpgradeMajority = anToCheckBlockUpgradeMajority; }

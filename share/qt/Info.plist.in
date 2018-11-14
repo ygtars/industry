@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The idy Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Pivx Core developers, 2017-@COPYRIGHT_YEAR@ The IDY Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>idy-Qt</string>
+  <string>IDY-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.savebitcoin.idy-Qt</string>
+  <string>io.savebitcoin.IDY-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.savebitcoin.idyPayment</string>
+      <string>io.savebitcoin.IDYPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>idy</string>
+        <string>IDY</string>
       </array>
     </dict>
   </array>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.savebitcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>idy payment request</string>
+      <string>IDY payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-idy-payment-request</string>
+        <string>application/x-IDY-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>idypaymentrequest</string>
+          <string>IDYpaymentrequest</string>
         </array>
       </dict>
     </dict>

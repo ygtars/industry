@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * idy RPC command dispatcher.
+ * IDY RPC command dispatcher.
  */
 class CRPCTable
 {

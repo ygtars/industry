@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your idy addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw idy adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your IDY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw IDY adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your idy addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw idy adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your IDY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw IDY adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw idys stelen.</translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw IDYs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW idy VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW IDY VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een idy adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een IDY adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Het idy adres om het bericht met te ondertekenen</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Het IDY adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het idy adres bezit</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het IDY adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>Het idy adres waarmee het bericht was ondertekend</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>Het IDY adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde idy adres</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde IDY adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Kern</translation>
+        <source>IDY Core</source>
+        <translation>IDY Kern</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Verstuur munten naar een idy adres</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Verstuur munten naar een IDY adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and idy: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en idy: URI's)</translation>
+        <source>Request payments (generates QR codes and IDY: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en IDY: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About idy Core</source>
-        <translation>&amp;Over idy Kern</translation>
+        <source>&amp;About IDY Core</source>
+        <translation>&amp;Over IDY Kern</translation>
     </message>
     <message>
-        <source>Show information about idy Core</source>
-        <translation>Toon informatie over idy Kern</translation>
+        <source>Show information about IDY Core</source>
+        <translation>Toon informatie over IDY Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Wijzig idy configuratie opties</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Wijzig IDY configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw idy adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw IDY adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde idy adressen</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde IDY adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a idy: URI or payment request</source>
-        <translation>Open een idy: URI of betaalverzoek</translation>
+        <source>Open a IDY: URI or payment request</source>
+        <translation>Open een IDY: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>idy Core client</source>
-        <translation>idy Core client</translation>
+        <source>IDY Core client</source>
+        <translation>IDY Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to idy network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het idy netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het idy netwerk</numerusform></translation>
+        <source>%n active connection(s) to IDY network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het IDY netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het IDY netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (idy.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (IDY.conf).</translation>
     </message>
 </context>
 <context>
@@ -1034,8 +1034,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid idy address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig idy adres.</translation>
+        <source>The entered address "%1" is not a valid IDY address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig IDY adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Kern</translation>
+        <source>IDY Core</source>
+        <translation>IDY Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About idy Core</source>
-        <translation>Over idy Core</translation>
+        <source>About IDY Core</source>
+        <translation>Over IDY Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to idy Core.</source>
-        <translation>Welkom bij idy Core</translation>
+        <source>Welcome to IDY Core.</source>
+        <translation>Welkom bij IDY Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Kern</translation>
+        <source>IDY Core</source>
+        <translation>IDY Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start idy after logging in to the system.</source>
-        <translation>idy automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start IDY after logging in to the system.</source>
+        <translation>IDY automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start idy on system login</source>
-        <translation>&amp;idy starten bij systeemlogin</translation>
+        <source>&amp;Start IDY on system login</source>
+        <translation>&amp;IDY starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting idy.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van idy.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting IDY.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van IDY.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1473,8 +1473,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a idy address (e.g. %1)</source>
-        <translation>Voer een idy adres in (b.v. %1)</translation>
+        <source>Enter a IDY address (e.g. %1)</source>
+        <translation>Voer een IDY adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the idy RPC console.</source>
-        <translation>Welkom bij de idy RPC console.</translation>
+        <source>Welcome to the IDY RPC console.</source>
+        <translation>Welkom bij de IDY RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1883,8 +1883,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 idy</source>
-        <translation>0 idy</translation>
+        <source>0 IDY</source>
+        <translation>0 IDY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1971,8 +1971,8 @@ MultiSend: %1</translation>
         <translation>gebruikt</translation>
     </message>
     <message>
-        <source>Warning: Invalid idy address</source>
-        <translation>Waarschuwing: Ongeldig idy adres</translation>
+        <source>Warning: Invalid IDY address</source>
+        <translation>Waarschuwing: Ongeldig IDY adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2026,8 +2026,8 @@ MultiSend: %1</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The idy address to send the payment to</source>
-        <translation>Het idy adres om de betaling naar te verzenden</translation>
+        <source>The IDY address to send the payment to</source>
+        <translation>Het IDY adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>idy Core is shutting down...</source>
-        <translation>idy Core is aan het afsluiten...</translation>
+        <source>IDY Core is shutting down...</source>
+        <translation>IDY Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2100,8 +2100,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>Het idy adres om het bericht met te ondertekenen</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>Het IDY adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2132,16 +2132,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het idy adres bezit</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het IDY adres bezit</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>Het idy adres waarmee het bericht was ondertekend</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>Het IDY adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde idy adres</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde IDY adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Kern</translation>
+        <source>IDY Core</source>
+        <translation>IDY Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The idy Core developers</source>
-        <translation>De idy Core ontwikkelaars</translation>
+        <source>The IDY Core developers</source>
+        <translation>De IDY Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The idy Core Developers</source>
-        <translation>Copyright (C) 2017-%i The idy Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The IDY Core Developers</source>
+        <translation>Copyright (C) 2017-%i The IDY Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

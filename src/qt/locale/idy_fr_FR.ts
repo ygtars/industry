@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>idy will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your idys from being stolen by malware infecting your computer.</source>
-        <translation>idy va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos idys d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>IDY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IDYs from being stolen by malware infecting your computer.</source>
+        <translation>IDY va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos IDYs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS idy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS IDY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a idy Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse idy que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a IDY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse IDY que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>L'adresse idy avec laquelle signer le message</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>L'adresse IDY avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse idy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse IDY</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>L'adresse idy avec laquelle le message a été signé</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>L'adresse IDY avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse idy renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse IDY renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a idy address</source>
-        <translation>Envoyer des pièces à une adresse idy</translation>
+        <source>Send coins to a IDY address</source>
+        <translation>Envoyer des pièces à une adresse IDY</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for idy</source>
-        <translation>Modifier les options de configuration pour idy</translation>
+        <source>Modify configuration options for IDY</source>
+        <translation>Modifier les options de configuration pour IDY</translation>
     </message>
     <message>
-        <source>Sign messages with your idy addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse idy pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your IDY addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse IDY pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified idy addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse idy spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified IDY addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse IDY spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (idy.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (idy.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (IDY.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (IDY.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid idy address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse idy valide</translation>
+        <source>The entered address "%1" is not a valid IDY address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse IDY valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1319,8 +1319,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 idy</source>
-        <translation>0 idy</translation>
+        <source>0 IDY</source>
+        <translation>0 IDY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1402,8 +1402,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The idy address to send the payment to</source>
-        <translation>L'adresse idy à laquelle envoyer le paiement</translation>
+        <source>The IDY address to send the payment to</source>
+        <translation>L'adresse IDY à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1448,8 +1448,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The idy address to sign the message with</source>
-        <translation>L'adresse idy avec laquelle signer le message</translation>
+        <source>The IDY address to sign the message with</source>
+        <translation>L'adresse IDY avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1476,16 +1476,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this idy address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse idy</translation>
+        <source>Sign the message to prove you own this IDY address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse IDY</translation>
     </message>
     <message>
-        <source>The idy address the message was signed with</source>
-        <translation>L'adresse idy avec laquelle le message a été signé</translation>
+        <source>The IDY address the message was signed with</source>
+        <translation>L'adresse IDY avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified idy address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse idy renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified IDY address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse IDY renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1679,7 +1679,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

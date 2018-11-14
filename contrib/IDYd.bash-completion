@@ -1,12 +1,12 @@
-# bash programmable completion for idyd(1) and idy-cli(1)
+# bash programmable completion for IDYd(1) and IDY-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have idyd && {
+have IDYd && {
 
-# call $idyd for RPC
-_idy_rpc() {
+# call $IDYd for RPC
+_IDY_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _idy_rpc() {
                 ;;
         esac
     done
-    $idyd "${rpcargs[@]}" "$@"
+    $IDYd "${rpcargs[@]}" "$@"
 }
 
-# Add idy accounts to COMPREPLY
-_idy_accounts() {
+# Add IDY accounts to COMPREPLY
+_IDY_accounts() {
     local accounts
-    accounts=$(_idy_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_IDY_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_idyd() {
+_IDYd() {
     local cur prev words=() cword
-    local idyd
+    local IDYd
 
-    # save and use original argument to invoke idyd
-    # idyd might not be in $PATH
-    idyd="$1"
+    # save and use original argument to invoke IDYd
+    # IDYd might not be in $PATH
+    IDYd="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _idyd() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _idy_accounts
+                _IDY_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _idyd() {
                 return 0
                 ;;
             move|setaccount)
-                _idy_accounts
+                _IDY_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _idyd() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _idy_accounts
+            _IDY_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _idyd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($idyd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($IDYd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_idy_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_IDY_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _idyd() {
     esac
 }
 
-complete -F _idyd idyd idy-cli
+complete -F _IDYd IDYd IDY-cli
 }
 
 # Local variables:

@@ -1,28 +1,28 @@
-idy Core
+IDY Core
 =====================
 
 Setup
 ---------------------
-[idy Core](http://savebitcoin.io) is the original idy client and it builds the backbone of the network. However, it downloads and stores the entire history of idy transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[IDY Core](http://savebitcoin.io) is the original IDY client and it builds the backbone of the network. However, it downloads and stores the entire history of IDY transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run idy on your native platform.
+The following are some helpful notes on how to run IDY on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/idy-qt (GUI, 32-bit) or bin/32/idyd (headless, 32-bit)
-- bin/64/idy-qt (GUI, 64-bit) or bin/64/idyd (headless, 64-bit)
+- bin/32/IDY-qt (GUI, 32-bit) or bin/32/IDYd (headless, 32-bit)
+- bin/64/IDY-qt (GUI, 64-bit) or bin/64/IDYd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run idy-qt.exe.
+Unpack the files into a directory, and then run IDY-qt.exe.
 
 ### OSX
 
-Drag idy-Qt to your applications folder, and then run idy-Qt.
+Drag IDY-Qt to your applications folder, and then run IDY-Qt.
 
 ### Need Help?
 
@@ -30,7 +30,7 @@ Drag idy-Qt to your applications folder, and then run idy-Qt.
 
 Building
 ---------------------
-The following are developer notes on how to build idy on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build IDY on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -38,7 +38,7 @@ The following are developer notes on how to build idy on your native platform. T
 
 Development
 ---------------------
-The idy repo's [root README](https://github.com/idy/idy/blob/master/README.md) contains relevant information on the development process and automated testing.
+The IDY repo's [root README](https://github.com/IDY/IDY/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

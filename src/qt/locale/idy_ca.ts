@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR idy&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES idyS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IDY&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES IDYS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>idy</source>
-        <translation>idy</translation>
+        <source>IDY</source>
+        <translation>IDY</translation>
     </message>
     <message>
-        <source>&amp;About idy</source>
-        <translation>&amp;Sobre idy</translation>
+        <source>&amp;About IDY</source>
+        <translation>&amp;Sobre IDY</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
-        <source>About idy Core</source>
-        <translation>Sobre idy Core</translation>
+        <source>About IDY Core</source>
+        <translation>Sobre IDY Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to idy Core.</source>
-        <translation>Benvingut a idy Core.</translation>
+        <source>Welcome to IDY Core.</source>
+        <translation>Benvingut a IDY Core.</translation>
     </message>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>idy Core</source>
-        <translation>idy Core</translation>
+        <source>IDY Core</source>
+        <translation>IDY Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop idy server.");
+            "\nStop IDY server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "idy server stopping";
+    return "IDY server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* idy features */
-        {"idy", "masternode", &masternode, true, true, false},
-        {"idy", "listmasternodes", &listmasternodes, true, true, false},
-        {"idy", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"idy", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"idy", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"idy", "masternodedebug", &masternodedebug, true, true, false},
-        {"idy", "startmasternode", &startmasternode, true, true, false},
-        {"idy", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"idy", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"idy", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"idy", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"idy", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"idy", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"idy", "mnbudget", &mnbudget, true, true, false},
-        {"idy", "preparebudget", &preparebudget, true, true, false},
-        {"idy", "submitbudget", &submitbudget, true, true, false},
-        {"idy", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"idy", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"idy", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"idy", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"idy", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"idy", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"idy", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"idy", "checkbudgets", &checkbudgets, true, true, false},
-        {"idy", "mnsync", &mnsync, true, true, false},
-        {"idy", "spork", &spork, true, true, false},
+        /* IDY features */
+        {"IDY", "masternode", &masternode, true, true, false},
+        {"IDY", "listmasternodes", &listmasternodes, true, true, false},
+        {"IDY", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"IDY", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"IDY", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"IDY", "masternodedebug", &masternodedebug, true, true, false},
+        {"IDY", "startmasternode", &startmasternode, true, true, false},
+        {"IDY", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"IDY", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"IDY", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"IDY", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"IDY", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"IDY", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"IDY", "mnbudget", &mnbudget, true, true, false},
+        {"IDY", "preparebudget", &preparebudget, true, true, false},
+        {"IDY", "submitbudget", &submitbudget, true, true, false},
+        {"IDY", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"IDY", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"IDY", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"IDY", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"IDY", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"IDY", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"IDY", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"IDY", "checkbudgets", &checkbudgets, true, true, false},
+        {"IDY", "mnsync", &mnsync, true, true, false},
+        {"IDY", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> idy-cli " + methodname + " " + args + "\n";
+    return "> IDY-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

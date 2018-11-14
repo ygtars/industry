@@ -199,7 +199,7 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
     delete pblocktemplate;
     mempool.clear();
 
-    // subsidy changing
+    // subsIDY changing
     int nHeight = chainActive.Height();
     chainActive.Tip()->nHeight = 209999;
     BOOST_CHECK(pblocktemplate = CreateNewBlock(scriptPubKey, pwalletMain, false));

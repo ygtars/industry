@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven idy tests.
+Utilities to generate test vectors for the data-driven IDY tests.
 
 Usage: 
 

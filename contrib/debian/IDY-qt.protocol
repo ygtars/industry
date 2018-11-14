@@ -1,6 +1,6 @@
 [Protocol]
-exec=idy-qt '%u'
-protocol=idy
+exec=IDY-qt '%u'
+protocol=IDY
 input=none
 output=none
 helper=true

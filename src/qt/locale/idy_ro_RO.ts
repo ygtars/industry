@@ -177,6 +177,6 @@
     </message>
     </context>
 <context>
-    <name>idy-core</name>
+    <name>IDY-core</name>
     </context>
 </TS>

@@ -3,7 +3,7 @@
 # /  |  /  |/  \    /  |/       \
 # $$ | /$$/ $$  \  /$$/ $$$$$$$  |
 # $$ |/$$/   $$  \/$$/  $$ |  $$ |
-# $$  $$<     $$  $$/   $$ |  $$ | - idy compile script(windows, linux) for wsl'
+# $$  $$<     $$  $$/   $$ |  $$ | - IDY compile script(windows, linux) for wsl'
 # $$$$$  \     $$$$/    $$ |  $$ | - AUTHOR - Bob Thomas
 # $$ |$$  \     $$ |    $$ |__$$ |
 # $$ | $$  |    $$ |    $$    $$/
@@ -12,7 +12,7 @@
 # Simple script to automate some of the wallet and deamon compiling
 # Made for windows subsystem for linux and able to compile for linux and windows
 
-idy_VERSION=$(git describe --abbrev=0 --tags)
+IDY_VERSION=$(git describe --abbrev=0 --tags)
 UPDATE_COMPLETED=0
 
 # Show intro message and ussage
@@ -22,8 +22,8 @@ function intro {
     echo "/  |  /  |/  \    /  |/       \ "
     echo '$$ | /$$/ $$  \  /$$/ $$$$$$$  |'
     echo '$$ |/$$/   $$  \/$$/  $$ |  $$ |'
-    echo '$$  $$<     $$  $$/   $$ |  $$ | - idy compile script(windows, linux) for wsl'
-    echo '$$$$$  \     $$$$/    $$ |  $$ |' "- idy VERSION - $idy_VERSION"
+    echo '$$  $$<     $$  $$/   $$ |  $$ | - IDY compile script(windows, linux) for wsl'
+    echo '$$$$$  \     $$$$/    $$ |  $$ |' "- IDY VERSION - $IDY_VERSION"
     echo '$$ |$$  \     $$ |    $$ |__$$ |'
     echo '$$ | $$  |    $$ |    $$    $$/ '
     echo '$$/   $$/     $$/     $$$$$$$/'
@@ -40,7 +40,7 @@ function intro {
 # compile target uses the $1 param as target name
 # Cleans previously installed target files
 # Build dependencies or uses cached ones
-# Compiles and installs the target in ~/idy_releases
+# Compiles and installs the target in ~/IDY_releases
 function build {
     if [ "$UPDATE_COMPLETED" -eq "0" ]; then
         install_core_deps
@@ -68,12 +68,12 @@ function build {
     CONFIG_SITE=$PWD/depends/"$1"/share/config.site ./configure --prefix=/
     echo -e "\e[1;32m$1 AUTOGEN COMPLETED\e[0m"
 
-    echo -e "\e[1;32m$1 STARTING idy COMPILE\e[0m"
+    echo -e "\e[1;32m$1 STARTING IDY COMPILE\e[0m"
     make
     echo -e "\e[1;32m$1 COMPILE COMPLETE AND INSTALLING TO\e[0m"
-    echo -e "\e[1;31m\t~/idy_releases/$idy_VERSION/"$1"\e[0m"
-    make install DESTDIR=~/idy_releases/$idy_VERSION/"$1"
-    echo -e "\e[1;32m idy-$1 INSTALLED AT ~/idy_releases/$idy_VERSION/$1"
+    echo -e "\e[1;31m\t~/IDY_releases/$IDY_VERSION/"$1"\e[0m"
+    make install DESTDIR=~/IDY_releases/$IDY_VERSION/"$1"
+    echo -e "\e[1;32m IDY-$1 INSTALLED AT ~/IDY_releases/$IDY_VERSION/$1"
 }
 
 # Install needed packages for the ubuntu instalation

@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += idyd
+  bin_PROGRAMS += IDYd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += idy-cli idy-tx
+  bin_PROGRAMS += IDY-cli IDY-tx
 endif
 
 .PHONY: FORCE
-# idy core #
+# IDY core #
 BITCOIN_CORE_H = \
   bignum.h \
   activemasternode.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between idyd and idy-qt
+# server: shared between IDYd and IDY-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -228,7 +228,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between idyd and idy-qt, but only linked
+# wallet: shared between IDYd and IDY-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -290,7 +290,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between idyd, and idy-qt and non-server tools
+# common: shared between IDYd, and IDY-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -348,7 +348,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between idy-cli and idy-qt
+# cli: shared between IDY-cli and IDY-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -358,7 +358,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-idyd_LDADD = \
+IDYd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -369,26 +369,26 @@ idyd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-idyd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+IDYd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-idyd_LDADD += libbitcoin_wallet.a
+IDYd_LDADD += libbitcoin_wallet.a
 endif
-idyd_SOURCES = idyd.cpp
+IDYd_SOURCES = IDYd.cpp
 #
 
 if TARGET_WINDOWS
-idyd_SOURCES += idyd-res.rc
+IDYd_SOURCES += IDYd-res.rc
 endif
 
-idyd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-idyd_CPPFLAGS = $(BITCOIN_INCLUDES)
-idyd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+IDYd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+IDYd_CPPFLAGS = $(BITCOIN_INCLUDES)
+IDYd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# idy-cli binary #
-idy_cli_LDADD = \
+# IDY-cli binary #
+IDY_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -397,14 +397,14 @@ idy_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-idy_cli_SOURCES = \
-  idy-cli.cpp
+IDY_cli_SOURCES = \
+  IDY-cli.cpp
 
-idy_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+IDY_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# idy-tx binary #
-idy_tx_LDADD = \
+# IDY-tx binary #
+IDY_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -413,15 +413,15 @@ idy_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-idy_tx_SOURCES = idy-tx.cpp
-idy_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+IDY_tx_SOURCES = IDY-tx.cpp
+IDY_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-idy_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+IDY_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-idy_cli_SOURCES += idy-cli-res.rc
+IDY_cli_SOURCES += IDY-cli-res.rc
 endif
-idy_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+IDY_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

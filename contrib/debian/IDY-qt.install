@@ -1,6 +1,6 @@
-usr/local/bin/idy-qt usr/bin
+usr/local/bin/IDY-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/idy-qt.desktop usr/share/applications
-debian/idy-qt.protocol usr/share/kde4/services/
+debian/IDY-qt.desktop usr/share/applications
+debian/IDY-qt.protocol usr/share/kde4/services/

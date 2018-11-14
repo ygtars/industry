@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The idy developers
+// Copyright (c) 2017-2018 The IDY developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@
 CActiveMasternode activeMasternode;
 
 //
-// Bootup the Masternode, look for a idy collateral input and register on the network
+// Bootup the Masternode, look for a IDY collateral input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
