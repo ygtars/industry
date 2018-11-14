@@ -1,0 +1,11 @@
+[Protocol]
+exec=idy-qt '%u'
+protocol=idy
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
